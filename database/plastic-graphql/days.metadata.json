@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"plastic-graphql.days"}],"uuid":"72f6ec8fec5144a795cc2d23e74655e0"}
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"plastic-graphql.days"}],"uuid":"3ec5de33e8c749fa9e8f067690896a0d"}
