@@ -1,15 +1,17 @@
 import mongoose from 'mongoose';
 import bcryptjs from 'bcryptjs';
+require('dotenv').config({ path: 'variables.env'});
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/plastic-graphql', 
+mongoose.connect(process.env.MONGO_LOCAL, 
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false  
     }
 );
+console.log('Connect database successfully.');
 
 
 //** TO DO Schemas */
